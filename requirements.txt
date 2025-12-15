@@ -1,0 +1,13 @@
+# Author = Adrian Puente Z. <ch0ks>
+# Date = Sunday, December 14, 2025
+# Version = 0.9
+streamlit
+langchain
+langchain-google-genai
+langchain-community
+python-docx
+docx2txt
+python-dotenv
+tabulate
+markdown
+xhtml2pdf
