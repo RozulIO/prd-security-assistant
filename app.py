@@ -172,7 +172,9 @@ def generate_report_narrative(text_content, risks_data):
     
     try:
         response = chain.invoke({"text": text_content, "risks": str(risks_data)})
-        return response
+        cleaned_response = response.replace("```markdown", "").replace("```", "").strip()
+
+        return cleaned_response
     except Exception as e:
         logger.error(f"Error generating report narrative: {e}")
         return "Error generating report narrative."

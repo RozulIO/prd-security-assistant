@@ -25,7 +25,7 @@ install:
 ## run: Start the Streamlit application
 run:
 	@echo "Starting Streamlit application..."
-	$(STREAMLIT) run app.py --server.port $(PORT) --server.address 0.0.0.0
+	$(STREAMLIT) run app.py --server.port ${PORT} --server.address 0.0.0.0 --server.enableCORS false --server.enableXsrfProtection false
 
 ## clean: Remove temporary files, logs, and Python environment
 clean:
