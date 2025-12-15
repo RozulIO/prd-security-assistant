@@ -181,6 +181,13 @@ def generate_report_narrative(text_content, risks_data):
 
 def main():
     logger.info("Application starting...")
+
+    query_params = st.query_params
+    if "healthz" in query_params:
+        st.write("OK")
+        return
+
+    logger.info("Application starting...")
     
     # 1. Configuration
     st.set_page_config(
