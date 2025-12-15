@@ -41,7 +41,7 @@ This application is designed to process sensitive system design documentation. W
 ### 4.1 Reporting a Bug
 If you discover a security vulnerability in this project, please do **not** open a public GitHub issue.
 
-- **Email:** security@rosul.io (or your university email)
+- **Email:** security@Rozul.io (or your university email)
 - **Response Time:** We aim to acknowledge reports within 48 hours.
 
 ### 4.2 Known Limitations (Prototype Status)

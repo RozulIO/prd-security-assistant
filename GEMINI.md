@@ -80,7 +80,7 @@ A separate LLM call generates the narrative sections (Executive Summary, Introdu
 Streamlit does not support native Bootstrap classes, so we will inject custom CSS via `st.markdown(..., unsafe_allow_html=True)` to achieve the "Web App" aesthetic. Custom CSS has been added to force primary buttons to a blue color.
 - **Fonts:** Use a clean sans-serif font (Inter or Roboto).
 - **Header:** Custom HTML header with a Shield/Lock SVG and App Name.
-- **Footer:** Fixed footer with "Rosul IO all rights reserved".
+- **Footer:** Fixed footer with "Rozul IO all rights reserved".
 
 ### 3.2 Layout Structure (`app.py`)
 1. **Configuration:** Set page config (Title, Icon, Layout='centered').

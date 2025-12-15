@@ -1,7 +1,7 @@
 # AI-Guided Risk Assessment Assistant
 
 **Author:** Adrián Puente Z. (ch0ks)  
-**Organization:** Rosul IO  
+**Organization:** Rozul IO  
 **Version:** 0.9  
 **Date:** December 14, 2025
 
@@ -108,4 +108,4 @@ Contributions are welcome! Please follow these guidelines:
 
 ## License
 
-Rosul IO - All Rights Reserved.
+Rozul IO - All Rights Reserved.
